@@ -1,0 +1,11 @@
+.logo-top{
+    width: 2em;
+}
+.formItemsCentrado{
+    align-items: center;
+    align-content: center;
+
+}
+.formItemsCentrado p{
+    margin: 0;
+}
