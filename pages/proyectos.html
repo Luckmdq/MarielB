@@ -19,13 +19,13 @@
 <body>
 	
 	<!-- header -->
-	<header class="navbar navbar-dark bg-dark sticky-top navbar-expand-md">
-		<div class="navbar-brand">
+	<header class="navbar navbar-dark bg-dark sticky-top  navbar-expand-md">
+		<div class="navbar-brand container-fluid">
 
 			<a href="#" class="navbar-brand m-3">
 				<img class=" logo-top " src="../img/logo.svg" alt="Logo">
 			</a>
-			<button class="navbar-toggler position-absolute end-0 mx-2 " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+			<button class="navbar-toggler position-absolute end-0 mx-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			
@@ -57,12 +57,11 @@
 								<li><a class="dropdown-item text-dark-emphasis text-center" href="#carouselBrewInterval">BrewHouse</a></li>
 								<li><hr class="dropdown-divider bg-white"></li>
 								<li><a class="dropdown-item text-dark-emphasis text-center" href="#carouselCima">CIMA-2021</a></li>
-								<li><hr class="dropdown-divider bg-white"></li>
 								<li><a class="dropdown-item text-dark-emphasis text-center" href="#carouselUsina">Usina-2021</a></li>
-								<li><hr class="dropdown-divider bg-white"></li>
+								<li><hr class="dropdown-divider bg-white"></li>gi
 								<li><a class="dropdown-item text-dark-emphasis text-center" href="#carouselIncantare">Incantare</a></li>
-								<li><hr class="dropdown-divider bg-white"></li>
 								<li><a class="dropdown-item text-dark-emphasis text-center" href="#carouselConstructora">Constructora Argentina</a></li>
+								<li><hr class="dropdown-divider bg-white"></li>
 							</ul>
 						</li>
 						<!-- redes -->
@@ -71,11 +70,12 @@
 								Redes
 							</a>
 							<ul class="dropdown-menu bg-dark">
-								<li><a class="dropdown-item text-dark-emphasis text-center" href="#">Facebook</a></li>
-								<li><hr class="dropdown-divider bg-white"></li>
-								<li><a class="dropdown-item text-dark-emphasis text-center" href="#">Instagram</a></li>
-								<li><hr class="dropdown-divider bg-white"></li>
-								<li><a class="dropdown-item text-dark-emphasis text-center" href="#">Linkedin</a></li>
+								<li><a class="dropdown-item text-black-50" href="#">Facebook</a></li>
+								<li><a class="dropdown-item text-black-50" href="#">Instagram</a></li>
+								<li>
+									<hr class="dropdown-divider bg-white">
+								</li>
+								<li><a class="dropdown-item text-black-50" href="#">Linkedin</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -84,410 +84,421 @@
 		</div>
 	</header> 
 
-	<main class="flex-row gap-5 container-fluid py-3">
+	<main class="container-fluid py-4 row gap-3">
 		<!-- brewhouse -->
 		<h2 class="w-25 mx-auto">
 			BrewHouse
 		</h2>
 		<!-- carrrusel -->
-		<article id="carouselBrewInterval" class="max carousel mx-auto slide" data-bs-ride="carousel">
-			
-			<div class="carousel-inner">
-				<div class="carousel-item active" data-bs-interval="2000">
-					<img src="../img/brewhouse/animacion.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/brewhouse/envase novedoso.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/brewhouse/envases.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/brewhouse/foodtruck.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item"data-bs-interval="2000">
-					<img src="../img/brewhouse/isotipo-ori.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/brewhouse/isotipo-proc.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/brewhouse/latas.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/brewhouse/merchandaising.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/brewhouse/merchandaising2.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/brewhouse/pack.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/brewhouse/papeleria.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000" >
-					<img src="../img/brewhouse/uniformes.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/brewhouse/webmobil.jpg" class="d-block w-100" alt="...">
-				</div>
-			</div>		
-			
-			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Previous</span>
-			</button>
-			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Next</span>
-			</button>
+		<div class="container-fluid row">
+			<article id="carouselBrewInterval" class="carousel col-md-5" data-bs-ride="carousel">
+				
+				<div class="carousel-inner">
+					<div class="carousel-item active" data-bs-interval="2000">
+						<img src="../img/brewhouse/animacion.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/brewhouse/envase novedoso.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/brewhouse/envases.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/brewhouse/foodtruck.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item"data-bs-interval="2000">
+						<img src="../img/brewhouse/isotipo-ori.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/brewhouse/isotipo-proc.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/brewhouse/latas.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/brewhouse/merchandaising.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/brewhouse/merchandaising2.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/brewhouse/pack.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/brewhouse/papeleria.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000" >
+						<img src="../img/brewhouse/uniformes.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/brewhouse/webmobil.jpg" class="d-block w-100" alt="...">
+					</div>
+				</div>		
+				
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
 
-		</article>
-		<!-- acordion -->
-		<article class=" accordion my-3 mx-auto" id="accordionBrew">
-			<section class="accordion-item">
-				<h2 class="accordion-header">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-						Sobre el proyecto
-					</button>
-				</h2>
-	
-				<article id="collapseOne" class="accordion-collapse collapse card text-bg-light mb-3" data-bs-parent="#accordionBrew">
-					<div class="accordion-body card-body">
-						<p class="card-text h-100">
-							En este proyecto académico lo que se busco fue modernizar el logo de la marca BrewHouse ya que se lo consideró desactualizado y sobrecargado de información. Debido a esto en la ejecución se optó por depurar ciertos elementos que no hacían más que entorpecer la lectura del mismo.
-						</p>
-					</div>
-				</article>
-			</section>
-			<section class="accordion-item">
-				<h2 class="accordion-header">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-						Rediseño
-					</button>
-				</h2>
-	
-				<article id="collapseTwo" class="accordion-collapse collapse card text-bg-light mb-3" data-bs-parent="#accordionBrew">
-					<div class="accordion-body card-body">
-						<p class="card-text h-100">Para el rediseño se buscó mantener un estilo “rockero”, ya que es un rasgo muy identitario de la marca aunque se mantuvieron los colores de la misma, para que haya una continuidad con la estética anterior. Se creó una fusión entre la cervecería y el rock, al juntar el lúpulo con la púa. Acompañada de una tipografía geométrica, intervenida en dos de su signos generando un estilo más personalizado y propio.
-						</p>
-					</div>
-				</article>
-			</section>
-			<section class="accordion-item">
-				<h2 class="accordion-header">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-						Historia de la Marca
-					</button>
-				</h2>
-	
-				<article id="collapseThree" class="accordion-collapse collapse card text-bg-light mb-3" data-bs-parent="#accordionBrew">
-					<div class="accordion-body card-body">
-						<p class="card-text h-100">
-							Comenzando a principios del 2014, la cervecería BrewHouse abre sus puertas con un estilo único en la ciudad ya que fusiona cerveza y Rock como parte de su identidad. 
-						</p>
-						<p class="card-text h-100">
-							Sumado a esto, otro rasgo característico es la enorme variedad de cerveza artesanal de la que dispone, proveniente de su fabrica con elaboración propia y de otros maestros cerveceros de la ciudad y la región.
-						</p>
-					</div>
-				</article>
-			</section>
-		</article>
+			</article>
+			<!-- acordion -->
+			<article class=" accordion my-3 col-md-7" id="accordionBrew">
+				<section class="accordion-item">
+					<h2 class="accordion-header">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							Sobre el proyecto
+						</button>
+					</h2>
 		
+					<article id="collapseOne" class="accordion-collapse collapse card text-bg-light mb-3" data-bs-parent="#accordionBrew">
+						<div class="accordion-body card-body">
+							<p class="card-text h-100">
+								En este proyecto académico lo que se busco fue modernizar el logo de la marca BrewHouse ya que se lo consideró desactualizado y sobrecargado de información. Debido a esto en la ejecución se optó por depurar ciertos elementos que no hacían más que entorpecer la lectura del mismo.
+							</p>
+						</div>
+					</article>
+				</section>
+				<section class="accordion-item">
+					<h2 class="accordion-header">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+							Rediseño
+						</button>
+					</h2>
+		
+					<article id="collapseTwo" class="accordion-collapse collapse card text-bg-light mb-3" data-bs-parent="#accordionBrew">
+						<div class="accordion-body card-body">
+							<p class="card-text h-100">Para el rediseño se buscó mantener un estilo “rockero”, ya que es un rasgo muy identitario de la marca aunque se mantuvieron los colores de la misma, para que haya una continuidad con la estética anterior. Se creó una fusión entre la cervecería y el rock, al juntar el lúpulo con la púa. Acompañada de una tipografía geométrica, intervenida en dos de su signos generando un estilo más personalizado y propio.
+							</p>
+						</div>
+					</article>
+				</section>
+				<section class="accordion-item">
+					<h2 class="accordion-header">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+							Historia de la Marca
+						</button>
+					</h2>
+		
+					<article id="collapseThree" class="accordion-collapse collapse card text-bg-light mb-3" data-bs-parent="#accordionBrew">
+						<div class="accordion-body card-body">
+							<p class="card-text h-100">
+								Comenzando a principios del 2014, la cervecería BrewHouse abre sus puertas con un estilo único en la ciudad ya que fusiona cerveza y Rock como parte de su identidad. 
+							</p>
+							<p class="card-text h-100">
+								Sumado a esto, otro rasgo característico es la enorme variedad de cerveza artesanal de la que dispone, proveniente de su fabrica con elaboración propia y de otros maestros cerveceros de la ciudad y la región.
+							</p>
+						</div>
+					</article>
+				</section>
+			</article>
+		</div>
 		
 		<h2 class="w-25 mx-auto">
 			CIMA-2021
 		</h2>
-		<!-- carrrusel -->
-		<article id="carouselCima" class="carousel mx-auto slide" data-bs-ride="carousel">
-			
-			<div class="carousel-inner">
-				<div class="carousel-item active" data-bs-interval="2000">
-					<img src="../img/Cima/logotipo.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Cima/colores.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Cima/isotipo.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Cima/redes.jpg" class="d-block w-100" alt="...">
-				</div>
-			</div>		
-			
-			<button class="carousel-control-prev" type="button" data-bs-target="#carouselCima" data-bs-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Previous</span>
-			</button>
-			<button class="carousel-control-next" type="button" data-bs-target="#carouselCima" data-bs-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Next</span>
-			</button>
-
-		</article>
-		<!-- acordion -->
-		<article class="accordion my-3 mx-auto" id="accordionCima">
-			<section class="accordion-item">
-				<h2 class="accordion-header">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneCima" aria-expanded="true" aria-controls="collapseOne">
-						Sobre el proyecto
-					</button>
-				</h2>
-	
-				<article id="collapseOneCima" class="accordion-collapse collapse card text-bg-light mb-3" data-bs-parent="#accordionCima">
-					<div class="accordion-body card-body">
-						<p class="card-text h-100">
-							Se buscó rediseñar el logo del festival de cortos independientes realizado por la Escuela de Artes Visuales Martin A. Malharro. Siendo el segundo año que se realizaba y estaban en busca de un logo que represente tanto al festival como a la escuela organizadora con una identidad marcada e integrada.
-						</p>
+		<div class="container-fluid row">
+			<!-- carrrusel -->
+			<article id="carouselCima" class="carousel col-md-5" data-bs-ride="carousel">
+				
+				<div class="carousel-inner">
+					<div class="carousel-item active" data-bs-interval="2000">
+						<img src="../img/Cima/logotipo.jpg" class="d-block w-100" alt="...">
 					</div>
-				</article>
-			</section>
-			<section class="accordion-item">
-				<h2 class="accordion-header">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoCima" aria-expanded="true" aria-controls="collapseTwo">
-						Redes sociales
-					</button>
-				</h2>
-	
-				<article id="collapseTwoCima" class="accordion-collapse collapse card text-bg-light mb-3" data-bs-parent="#accordionCima">
-					<div class="accordion-body card-body">
-						<p class="card-text h-100">
-							En las redes sociales lo que se buscó es una fusión con las placas anteriores que supieron ser de transición entre el diseño del festival del 2020 y el de este año, por lo que se continua con una estética, pero transformada para darle un estilo nuevo
-						</p>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Cima/colores.jpg" class="d-block w-100" alt="...">
 					</div>
-				</article>
-			</section>
-		</article>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Cima/isotipo.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Cima/redes.jpg" class="d-block w-100" alt="...">
+					</div>
+				</div>		
+				
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselCima" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselCima" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+	
+			</article>
+			<!-- acordion -->
+			<article class="accordion my-3 col-md-7" id="accordionCima">
+				<section class="accordion-item">
+					<h2 class="accordion-header">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneCima" aria-expanded="true" aria-controls="collapseOne">
+							Sobre el proyecto
+						</button>
+					</h2>
+		
+					<article id="collapseOneCima" class="accordion-collapse collapse card text-bg-light mb-3" data-bs-parent="#accordionCima">
+						<div class="accordion-body card-body">
+							<p class="card-text h-100">
+								Se buscó rediseñar el logo del festival de cortos independientes realizado por la Escuela de Artes Visuales Martin A. Malharro. Siendo el segundo año que se realizaba y estaban en busca de un logo que represente tanto al festival como a la escuela organizadora con una identidad marcada e integrada.
+							</p>
+						</div>
+					</article>
+				</section>
+				<section class="accordion-item">
+					<h2 class="accordion-header">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoCima" aria-expanded="true" aria-controls="collapseTwo">
+							Redes sociales
+						</button>
+					</h2>
+		
+					<article id="collapseTwoCima" class="accordion-collapse collapse card text-bg-light mb-3" data-bs-parent="#accordionCima">
+						<div class="accordion-body card-body">
+							<p class="card-text h-100">
+								En las redes sociales lo que se buscó es una fusión con las placas anteriores que supieron ser de transición entre el diseño del festival del 2020 y el de este año, por lo que se continua con una estética, pero transformada para darle un estilo nuevo
+							</p>
+						</div>
+					</article>
+				</section>
+			</article>
+		</div>
 
 		<h2 class="w-25 mx-auto">
 			Usina-2021
 		</h2>
-		<!-- carrrusel -->
-		<article id="carouselUsina" class="carousel mx-auto slide" data-bs-ride="carousel">
-			
-			<div class="carousel-inner">
-				<div class="carousel-item active" data-bs-interval="2000">
-					<img src="../img/Usina/usina Flier.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Usina/usina Flier (2).jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Usina/usina Flier (3).jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Usina/usina Flier (4).jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Usina/usina Flier (5).jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Usina/usina Flier (6).jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Usina/usina Flier (7).jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Usina/usina Flier (8).jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Usina/afiches.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Usina/banerExterno.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Usina/banner.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Usina/feedIg.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Usina/InvitacionMail.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Usina/MochupInterior.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Usina/Mocjup Exterior.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Usina/mockupInterior.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Usina/pictogramas.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Usina/Portada.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Usina/Señaletica (2).jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Usina/Señaletica.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Usina/sistema.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Usina/Totem.jpg" class="d-block w-100" alt="...">
-				</div>
-			</div>		
-			
-			<button class="carousel-control-prev" type="button" data-bs-target="#carouselUsina" data-bs-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Previous</span>
-			</button>
-			<button class="carousel-control-next" type="button" data-bs-target="#carouselUsina" data-bs-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Next</span>
-			</button>
 
-		</article>
-		<!-- acordion -->
-		<article class="accordion my-3 mx-auto" id="accordionUsina">
-			<section class="accordion-item">
-				<h2 class="accordion-header">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneUsina" aria-expanded="true" aria-controls="collapseUsina">
-						Sobre el proyecto
-					</button>
-				</h2>
-	
-				<article id="collapseOneUsina" class="accordion-collapse collapse card text-bg-light mb-3" data-bs-parent="#accordionUsina">
-					<div class="accordion-body card-body">
-						<p class="card-text h-100">
-							Para la Usina del Arte del 2021 de la Escuela Martin A. Malharro no sólo se realizó la exposición de arte, como venía sucediendo todos los años, sino que en este caso en particular se celebraban los 100 años del nacimiento de Astor Piazzolla, por esta razón toda la muestra se vio trazada por dicho acontecimiento y el rediseño del logo no fue una excepción a aquella regla.
-						</p>
+		<div class="container-fluid row">
+			<!-- carrrusel -->
+			<article id="carouselUsina" class="carousel col-md-5" data-bs-ride="carousel">
+				
+				<div class="carousel-inner">
+					<div class="carousel-item active" data-bs-interval="2000">
+						<img src="../img/Usina/usina Flier.jpg" class="d-block w-100" alt="...">
 					</div>
-				</article>
-			</section>
-			<section class="accordion-item">
-				<h2 class="accordion-header">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoUsina" aria-expanded="true" aria-controls="collapseTwo">
-						Colores
-					</button>
-				</h2>
-	
-				<article id="collapseTwoUsina" class="accordion-collapse collapse card text-bg-light mb-3" data-bs-parent="#accordionUsina">
-					<div class="accordion-body card-body">
-						<p class="card-text h-100">
-							Los colores seleccionados son el rosa rojizo y celeste, los cuáles no 
-							sólo se utilizarán en el logotipo sino que también en las diferentes 
-							aplicaciones
-						</p>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Usina/usina Flier (2).jpg" class="d-block w-100" alt="...">
 					</div>
-				</article>
-			</section>
-		</article>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Usina/usina Flier (3).jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Usina/usina Flier (4).jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Usina/usina Flier (5).jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Usina/usina Flier (6).jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Usina/usina Flier (7).jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Usina/usina Flier (8).jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Usina/afiches.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Usina/banerExterno.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Usina/banner.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Usina/feedIg.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Usina/InvitacionMail.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Usina/MochupInterior.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Usina/Mocjup Exterior.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Usina/mockupInterior.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Usina/pictogramas.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Usina/Portada.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Usina/Señaletica (2).jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Usina/Señaletica.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Usina/sistema.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Usina/Totem.jpg" class="d-block w-100" alt="...">
+					</div>
+				</div>		
+				
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselUsina" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselUsina" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+
+			</article>
+			<!-- acordion -->
+			<article class="accordion my-3 col-md-7" id="accordionUsina">
+				<section class="accordion-item">
+					<h2 class="accordion-header">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneUsina" aria-expanded="true" aria-controls="collapseUsina">
+							Sobre el proyecto
+						</button>
+					</h2>
+		
+					<article id="collapseOneUsina" class="accordion-collapse collapse card text-bg-light mb-3" data-bs-parent="#accordionUsina">
+						<div class="accordion-body card-body">
+							<p class="card-text h-100">
+								Para la Usina del Arte del 2021 de la Escuela Martin A. Malharro no sólo se realizó la exposición de arte, como venía sucediendo todos los años, sino que en este caso en particular se celebraban los 100 años del nacimiento de Astor Piazzolla, por esta razón toda la muestra se vio trazada por dicho acontecimiento y el rediseño del logo no fue una excepción a aquella regla.
+							</p>
+						</div>
+					</article>
+				</section>
+				<section class="accordion-item">
+					<h2 class="accordion-header">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwoUsina" aria-expanded="true" aria-controls="collapseTwo">
+							Colores
+						</button>
+					</h2>
+		
+					<article id="collapseTwoUsina" class="accordion-collapse collapse card text-bg-light mb-3" data-bs-parent="#accordionUsina">
+						<div class="accordion-body card-body">
+							<p class="card-text h-100">
+								Los colores seleccionados son el rosa rojizo y celeste, los cuáles no 
+								sólo se utilizarán en el logotipo sino que también en las diferentes 
+								aplicaciones
+							</p>
+						</div>
+					</article>
+				</section>
+			</article>
+		</div>
 
 		
 		<h2 class="w-25 mx-auto">
 			Incantare
 		</h2>
-		<!-- carrrusel -->
-		<article id="carouselIncantare" class="carousel mx-auto slide" data-bs-ride="carousel">
-			
-			<div class="carousel-inner">
-				<div class="carousel-item active" data-bs-interval="2000">
-					<img src="../img/Incantarte/Alternativa.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Incantarte/Color.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Incantarte/Feed.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Incantarte/Historias.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Incantarte/Logo.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Incantarte/Simbolo.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Incantarte/Stickers.jpg" class="d-block w-100" alt="...">
-				</div>
-			</div>		
-			
-			<button class="carousel-control-prev" type="button" data-bs-target="#carouselIncantare" data-bs-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Previous</span>
-			</button>
-			<button class="carousel-control-next" type="button" data-bs-target="#carouselIncantare" data-bs-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Next</span>
-			</button>
-
-		</article>
-		<!-- acordion -->
-		<article class="accordion my-3 mx-auto" id="accordionIncan">
-			<section class="accordion-item">
-				<h2 class="accordion-header">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneIncan" aria-expanded="true" aria-controls="collapseIncan">
-						Sobre el proyecto
-					</button>
-				</h2>
-	
-				<article id="collapseOneIncan" class="accordion-collapse collapse card text-bg-light mb-3" data-bs-parent="#accordionIncan">
-					<div class="accordion-body card-body">
-						<p class="card-text h-100">
-							Incantare se trata de un emprendimiento pastelero. El mismo necesitaba de una organización de la información y un diseño acorde al nivel de importancia que pretendía adquirir. Por ello se realizó un diseño de branding completo para llegar a su cometido mediante la realización del logotipo, placas en redes sociales, destacados, etc. que le permitieran adquirir com petitividad en el mercado.
-						</p>
+		<div class="container-fluid row">
+			<!-- carrrusel -->
+			<article id="carouselIncantare" class="carousel col-md-5" data-bs-ride="carousel">
+				
+				<div class="carousel-inner">
+					<div class="carousel-item active" data-bs-interval="2000">
+						<img src="../img/Incantarte/Alternativa.jpg" class="d-block w-100" alt="...">
 					</div>
-				</article>
-			</section>
-		</article>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Incantarte/Color.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Incantarte/Feed.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Incantarte/Historias.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Incantarte/Logo.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Incantarte/Simbolo.jpg" class="d-block w-100" alt="...">
+					</div>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Incantarte/Stickers.jpg" class="d-block w-100" alt="...">
+					</div>
+				</div>		
+				
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselIncantare" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselIncantare" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+
+			</article>
+			<!-- acordion -->
+			<article class="accordion  col-md-7" id="accordionIncan">
+				<section class="accordion-item">
+					<h2 class="accordion-header">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneIncan" aria-expanded="true" aria-controls="collapseIncan">
+							Sobre el proyecto
+						</button>
+					</h2>
+		
+					<article id="collapseOneIncan" class="accordion-collapse collapse card text-bg-light mb-3" data-bs-parent="#accordionIncan">
+						<div class="accordion-body card-body">
+							<p class="card-text h-100">
+								Incantare se trata de un emprendimiento pastelero. El mismo necesitaba de una organización de la información y un diseño acorde al nivel de importancia que pretendía adquirir. Por ello se realizó un diseño de branding completo para llegar a su cometido mediante la realización del logotipo, placas en redes sociales, destacados, etc. que le permitieran adquirir com petitividad en el mercado.
+							</p>
+						</div>
+					</article>
+				</section>
+			</article>
+		</div>
 
 		<h2 class="w-25 mx-auto">
 			Constructora Argentina
 		</h2>
-		<!-- carrrusel -->
-		<article id="carouselConstructora" class="carousel mx-auto slide" data-bs-ride="carousel">
-			
-			<div class="carousel-inner">
-				<div class="carousel-item active" data-bs-interval="2000">
-					<img src="../img/Constructora Argentina/Logo.jpg" class="d-block w-100" alt="...">
-				</div>
-				<div class="carousel-item" data-bs-interval="2000">
-					<img src="../img/Constructora Argentina/Redes.jpg" class="d-block w-100" alt="...">
-				</div>
-			</div>		
-			
-			<button class="carousel-control-prev" type="button" data-bs-target="#carouselConstructora" data-bs-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Previous</span>
-			</button>
-			<button class="carousel-control-next" type="button" data-bs-target="#carouselConstructora" data-bs-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Next</span>
-			</button>
 
-		</article>
-		<!-- acordion -->
-		<article class="accordion my-3 mx-auto" id="accordionConst">
-			<section class="accordion-item">
-				<h2 class="accordion-header">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneConst" aria-expanded="true" aria-controls="collapseConst">
-						Sobre el proyecto
-					</button>
-				</h2>
-	
-				<article id="collapseOneConst" class="accordion-collapse collapse card text-bg-light mb-3" data-bs-parent="#accordionConst">
-					<div class="accordion-body card-body">
-						<p class="card-text h-100">
-							Constructora Argentina es una empresa de construcción de piscinas, con una clara identificación nacional.
-						</p>
-						<p class="card-text h-100">
-							Se partió desde esas premisas para la elaboración de todo un sistema identitario, con un diseño de branding completo con logotipo, placas en redes sociales, etc. El objetivo es permitir un crecimiento dentro de su propio mercado.
-						</p>
+		<div class="container-fluid row">
+			<!-- carrrusel -->
+			<article id="carouselConstructora" class="carousel col-md-5" data-bs-ride="carousel">
+				
+				<div class="carousel-inner">
+					<div class="carousel-item active" data-bs-interval="2000">
+						<img src="../img/Constructora Argentina/Logo.jpg" class="d-block w-100" alt="...">
 					</div>
-				</article>
-			</section>
-		</article>
+					<div class="carousel-item" data-bs-interval="2000">
+						<img src="../img/Constructora Argentina/Redes.jpg" class="d-block w-100" alt="...">
+					</div>
+				</div>		
+				
+				<button class="carousel-control-prev" type="button" data-bs-target="#carouselConstructora" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button class="carousel-control-next" type="button" data-bs-target="#carouselConstructora" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+
+			</article>
+			<!-- acordion -->
+			<article class="accordion col-md-7" id="accordionConst">
+				<section class="accordion-item">
+					<h2 class="accordion-header">
+						<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneConst" aria-expanded="true" aria-controls="collapseConst">
+							Sobre el proyecto
+						</button>
+					</h2>
+		
+					<article id="collapseOneConst" class="accordion-collapse collapse card text-bg-light mb-3" data-bs-parent="#accordionConst">
+						<div class="accordion-body card-body">
+							<p class="card-text h-100">
+								Constructora Argentina es una empresa de construcción de piscinas, con una clara identificación nacional.
+							</p>
+							<p class="card-text h-100">
+								Se partió desde esas premisas para la elaboración de todo un sistema identitario, con un diseño de branding completo con logotipo, placas en redes sociales, etc. El objetivo es permitir un crecimiento dentro de su propio mercado.
+							</p>
+						</div>
+					</article>
+				</section>
+			</article>
+		</div>
 
 	</main>
 
