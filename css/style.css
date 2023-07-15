@@ -1,14 +1,7 @@
-.logo-top{
-    width: 2em;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.formItemsCentrado{
-    align-items: center;
-    align-content: center;
 
-}
-.formItemsCentrado p{
-    margin: 0;
-}
-.max-he{
-    height: 50vh;
-}
+/*# sourceMappingURL=style.css.map */
