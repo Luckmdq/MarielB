@@ -2,6 +2,10 @@ header div a img {
   height: 3em;
 }
 
+main {
+  min-height: 100vh;
+}
+
 footer {
   height: 2wh;
   width: 100wv;
@@ -17,10 +21,6 @@ footer p {
   margin: 0.5em;
   text-align: center;
   color: white;
-}
-
-main {
-  min-height: 100vh;
 }
 
 /*# sourceMappingURL=style.css.map */
