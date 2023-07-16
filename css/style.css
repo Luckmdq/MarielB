@@ -1,5 +1,26 @@
 header div a img {
-  height: 3rem;
+  height: 3em;
+}
+
+footer {
+  height: 2wh;
+  width: 100wv;
+  background-color: #212529;
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+footer p {
+  margin: 0.5em;
+  text-align: center;
+  color: white;
+}
+
+main {
+  min-height: 100vh;
 }
 
 /*# sourceMappingURL=style.css.map */
