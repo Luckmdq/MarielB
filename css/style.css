@@ -1,5 +1,16 @@
-header div a img {
+header a img {
   height: 3em;
+  margin: 4px;
+}
+header h1 {
+  color: white;
+  z-index: 2;
+  position: relative;
+  left: -40%;
+  top: 2px;
+}
+header .offcanvas .offcanvas-body ul li a {
+  text-align: center;
 }
 
 main {
