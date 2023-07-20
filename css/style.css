@@ -11,10 +11,7 @@ header a img {
 }
 header h1 {
   color: white;
-  z-index: 2;
-  position: relative;
-  left: -40%;
-  top: 2px;
+  margin: 0 auto;
 }
 header .offcanvas .offcanvas-body ul li a {
   text-align: center;
@@ -50,8 +47,12 @@ footer p {
   text-align: center;
   line-height: 1.5em;
 }
-.cardGroupHome a {
-  margin: 1.5em auto;
+
+/* end home */
+@media (min-width: 768px) {
+  header h1 {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
