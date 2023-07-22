@@ -63,6 +63,28 @@ footer p {
   }
 }
 /* end home */
+form {
+  padding-top: 1em;
+}
+form h2 {
+  text-align: center;
+}
+form section {
+  margin: 1.5em auto;
+  padding-bottom: 0.5em;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  gap: 1.5em;
+  border-bottom: 1px solid rgba(194, 194, 194, 0.572);
+}
+form div {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 1em;
+}
+
 @media (min-width: 768px) {
   header h1 {
     display: none;
