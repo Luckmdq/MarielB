@@ -1,4 +1,5 @@
 form
+	max-width: 100vw
 	padding-top: 1em
 	h2
 		text-align: center
@@ -10,8 +11,11 @@ form
 		justify-content: space-evenly
 		gap: 1.5em
 		border-bottom: 1px solid rgba(194, 194, 194, 0.572)
-	div
-		display: flex
-		align-items: baseline
-		justify-content: center
-		gap: 1em
+		overflow: hidden
+		div
+			display: flex
+			align-items: baseline
+			justify-content: center
+			gap: 1em
+			input
+				max-width: 50%

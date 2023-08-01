@@ -63,7 +63,9 @@ footer p {
   }
 }
 /* end home */
+/* contacto */
 form {
+  max-width: 100vw;
   padding-top: 1em;
 }
 form h2 {
@@ -77,12 +79,42 @@ form section {
   justify-content: space-evenly;
   gap: 1.5em;
   border-bottom: 1px solid rgba(194, 194, 194, 0.572);
+  overflow: hidden;
 }
-form div {
+form section div {
   display: flex;
   align-items: baseline;
   justify-content: center;
   gap: 1em;
+}
+form section div input {
+  max-width: 50%;
+}
+
+/* fin contacto */
+/* aportes */
+.coment {
+  padding: 1em;
+  display: flex;
+  gap: 1em;
+  align-items: center;
+  justify-content: center;
+}
+.coment__img {
+  width: 50px;
+  height: 50px;
+  background-image: url("../img/personas/persona.jpg");
+  background-size: cover;
+  border-radius: 50%;
+}
+.coment hgroup h2 {
+  margin: 0 auto;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+  width: 18px;
 }
 
 @media (min-width: 768px) {
