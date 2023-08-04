@@ -103,9 +103,17 @@ form section div input {
 .coment__img {
   width: 50px;
   height: 50px;
-  background-image: url("../img/personas/persona.jpg");
   background-size: cover;
   border-radius: 50%;
+}
+.coment .img1 {
+  background-image: url("../img/personas/persona.jpg");
+}
+.coment .img2 {
+  background-image: url("../img/personas/persona1.jpg");
+}
+.coment .img3 {
+  background-image: url("../img/personas/persona2.jpg");
 }
 .coment hgroup h2 {
   margin: 0 auto;
@@ -117,6 +125,13 @@ form section div input {
   width: 18px;
 }
 
+@media (min-width: 768px) {
+  .mainAportes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+  }
+}
 @media (min-width: 768px) {
   header h1 {
     display: none;

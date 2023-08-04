@@ -7,9 +7,14 @@
 	&__img
 		width: 50px
 		height: 50px
-		background-image: url("../img/personas/persona.jpg")
 		background-size: cover
 		border-radius: 50%
+	.img1
+		background-image: url("../img/personas/persona.jpg")
+	.img2
+		background-image: url("../img/personas/persona1.jpg")
+	.img3
+		background-image: url("../img/personas/persona2.jpg")
 	hgroup
 		h2
 			margin: 0 auto
@@ -18,4 +23,9 @@
 	display: flex
 	flex-direction: row
 	width: 18px
-	
+
+@media (min-width:768px)
+	.mainAportes
+		display: grid
+		grid-template-columns: repeat(3,1fr)
+		align-items: start
